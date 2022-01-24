@@ -1,5 +1,5 @@
 ---
-- name: install the iis web service
+- name: CIS benchmarking
   hosts: windows
   tasks:
     - name: "18.1.1 (L1) Ensure 'Prevent enabling lock screen camera' is set to 'Enabled'"
