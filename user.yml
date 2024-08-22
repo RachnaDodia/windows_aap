@@ -4,6 +4,6 @@
   tasks:
     - name: Ensure user bob is present
       win_user:
-        name: bob
-        password: B0bP4ssw0rd
+        name: rachna
+        password: 23
         state: present
