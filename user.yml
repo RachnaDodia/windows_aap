@@ -2,8 +2,8 @@
 - name: install the iis web service
   hosts: windows
   tasks:
-    - name: Ensure user bob is present
+    - name: Ensure new user is present
       win_user:
-        name: rachna
+        name: "{{ user }}"
         password: B0bP4ssw0rd7
         state: present
