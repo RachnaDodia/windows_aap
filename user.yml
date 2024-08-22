@@ -5,5 +5,5 @@
     - name: Ensure user bob is present
       win_user:
         name: rachna
-        password: 23
+        password: 2399998hh
         state: present
