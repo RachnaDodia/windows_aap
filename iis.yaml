@@ -20,4 +20,4 @@
 
     - name: Show website address
       debug:
-        msg: http://3.238.147.94
+        msg: http://{{ ansible_host }}
