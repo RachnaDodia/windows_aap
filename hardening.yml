@@ -1,6 +1,6 @@
 ---
 - name: Windows Server Hardening
-  hosts: windows
+  hosts: all
   gather_facts: yes
 
   collections:
